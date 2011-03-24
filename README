@@ -1,0 +1,15 @@
+ADSYNC.EXE: Created for the Captaris Partner Conference 2007 in Kuala Lumpur
+            Developed by Matt Williams, Captaris International Trainer
+            Not for Production Use
+            
+            Command Line Arguments are [clean] databasename
+            
+
+
+AD Sync - Command Line Utility to synchronise users from Active Directory    
+           to an Alchemy Database. Users in the AlchemyUsers group are       
+           identified. A folder is created in their name, and a db group     
+           is created based on their login. The folder is then assigned      
+           to the group. On the server, a Role is created, the db and group  
+           is added, the user is added. All that is left to do is to enable  
+           Integrated Security. 
